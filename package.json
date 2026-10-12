@@ -1,0 +1,26 @@
+{
+  "name": "hotel-backend",
+  "version": "1.0.0",
+  "description": "ISA-II: Hotel Room Booking and Housekeeping Dashboard API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "migrate": "sequelize-cli db:migrate",
+    "migrate:undo": "sequelize-cli db:migrate:undo:all",
+    "create": "node create.js",
+    "update": "node update.js",
+    "validate": "node validationTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
